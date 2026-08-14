@@ -1,4 +1,4 @@
-// src/routes/index.ts
+
 import { Router } from 'express';
 import { authenticate, requireRole } from '../middleware/auth';
 import { validate, createTransactionSchema, updateTransactionSchema, createUserSchema } from '../utils/validation';
